@@ -1,0 +1,30 @@
+{
+  "name": "uniswap-v3-sdk-tutorial-ts",
+  "version": "0.1.0",
+  "homepage": "https://techgeorgii.com/uniswap-v3-sdk-tutorial",
+  "description": "Uniswap V3 SDK tutorial. Changing tokens on Mainnet, Polygon, Rinkeby, Kovan networks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechGeorgii/uniswap-v3-sdk-tutorial-ts.git"
+  },
+  "author": "Georgii Savchenko (TechGeorgii)",
+  "bugs": {
+    "url": "https://github.com/TechGeorgii/uniswap-v3-sdk-tutorial-ts/issues"
+  },
+  "dependencies": {
+    "@types/yargs": "^17.0.10",
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/smart-order-router": "^2.5.30",
+    "@uniswap/v3-sdk": "^3.8.3",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "yargs": "^17.5.1"
+  },
+  "scripts": {
+    "start": "ts-node ./tutorial.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
